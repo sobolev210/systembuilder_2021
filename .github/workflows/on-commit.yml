@@ -3,7 +3,7 @@ name: on-commit
 on:
   push:
     branches:
-      - ref/builder
+      - final
 jobs:
   build:
     name: Single Job
