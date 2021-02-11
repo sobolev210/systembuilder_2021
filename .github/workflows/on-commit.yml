@@ -22,7 +22,7 @@ jobs:
       - name: Cloning the repo as dev-bot
         uses: actions/checkout@v2 
         with:
-          repository: antonkurenkov/systembuilder_2021
+          repository: sobolev210/systembuilder_2021
           token: ${{ secrets.DEV_BOT_TOKEN }}
           path: repo
 
